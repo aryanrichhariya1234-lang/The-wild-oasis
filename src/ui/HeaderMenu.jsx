@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Logout from "../features/authentication/LogOut";
+import LogOut from "../features/authentication/LogOut";
 import ButtonIcon from "./ButtonIcon";
 import { HiOutlineUser } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +24,7 @@ function HeaderMenu() {
         <DarkModeToggle />
       </li>
       <li>
-        <Logout />
+        <LogOut />
       </li>
     </StyledHeaderMenu>
   );
