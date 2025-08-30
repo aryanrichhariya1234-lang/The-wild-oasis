@@ -1,4 +1,4 @@
-import UseUser from "./useUser";
+import UseUser from "./UseUser";
 import { useState } from "react";
 import Button from "../../ui/Button";
 import FileInput from "../../ui/FileInput";
